@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+/uploaded_files/1cf862f9-b584-4b7a-9500-350da260d7a4/
+/uploaded_files/522c4470-e42d-4c46-a6f9-d954fb159ad5/
+/uploaded_files/a1eb6302-cf65-4792-a888-6233b410b555/
+/bin/
+/alembic/versions/9bbf93ee6635_new_migration.py
+/lib/
+/test.py
+.idea
+__pycache__
