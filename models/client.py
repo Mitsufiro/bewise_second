@@ -37,6 +37,11 @@ def generate_segment() -> int:
 
 
 class EditableUserBase(SQLModel):
+    is_active: bool = Field(default=True)
+    role: str = Field(
+        sa_column=Column("role", user_role_type, nullable=False),
+        default=UserRole.user,
+    )
     email: EmailStr = Field(
         nullable=True, index=True, sa_column_kwargs={"unique": True}
     )
