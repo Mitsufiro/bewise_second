@@ -67,9 +67,13 @@
 
  <img src="screens/urls.png" width="400" height="200">
 
-* Удаление файлов админом
+* Удаление юзером собственных файлов
  
- <img src="screens/login.png" width="400" height="200">
+ <img src="screens/delete.png" width="400" height="200">
+
+* Удаление админом любых файлов
+ 
+ <img src="screens/admin_delete.png" width="400" height="200">
 
 ## Finally:
 
